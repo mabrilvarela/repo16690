@@ -1,0 +1,21 @@
+@import "./extend";
+
+.ctg {
+    &__row {
+        width: 100%;
+        margin-left: 40px;
+    }
+    img {
+        object-fit: cover;
+        position: relative;
+        height: 450px;
+        width: 250px;
+    }
+    &__descripcion {
+        @extend %fcolumn;
+        @extend %jacenter;
+        width: 72%;
+        padding: 15px 0px;
+        font-size: 20px;
+    }
+}

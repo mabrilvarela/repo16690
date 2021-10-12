@@ -1,0 +1,27 @@
+@import "./vars";
+@import "./responsive";
+@import "./extend";
+
+.mainc {
+    padding-left: $pad*50;
+    @include tablet {
+        padding-left: 200px;
+    }
+    &__h1 {
+        width: 100%;
+        font-weight: ($fw+100)*2;
+        align-items: center;
+        font-size: 35px;
+        padding: 20px 70px
+    }
+    &__fondo {
+        @extend %fcolumn;
+        width: 100%;
+        padding-bottom: $pad*3;
+        line-height: 1.5;
+    }
+    &__form {
+        margin: 0px 20px;
+        padding: 10px 20px;
+    }
+}

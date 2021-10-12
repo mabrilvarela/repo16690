@@ -1,0 +1,12 @@
+@import "./extend";
+
+.section__404 {
+    background-color: darkorchid;
+    height: 200vh;
+    width: 100%;
+}
+
+.section__h1, .section__p {
+    @extend %jacenter;
+    @extend %fcolumn;
+}

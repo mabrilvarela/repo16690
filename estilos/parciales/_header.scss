@@ -1,0 +1,106 @@
+@import "./vars";
+@import "./responsive";
+@import "./extend";
+
+/*INDEX*/
+
+.header {
+    display: flex;
+    &__hsec {
+        display: grid;
+        grid-template-rows: max-content;
+        min-height: 95vh;
+        min-width: 100%;
+        background-image: url(https://fotos.perfil.com/2020/07/24/el-55-por-ciento-de-las-mujeres-creen-son-retratadas-negativamente-en-los-medios-991642.jpg);
+        background-size: cover;
+        
+        @include tablet {
+            background-position: center;
+        }
+        &__nav {
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: $fw+200;
+            gap: 70px;
+
+            @include tablet {
+                gap: 4px;
+            }
+        }   
+    }
+    &__text {
+        @extend %fcolumn;
+        align-items: center;
+        justify-content: flex-end;
+        padding-bottom: 10px;
+        line-height: 1;
+        color: black;
+        &__h2 {
+            font-size: $fs;
+            font-weight: ($fw+100)*2; 
+        }
+        button {
+            padding: 10px;
+            background-color: rgb(238, 159, 159);
+            border: solid 1px black;
+        }
+
+        @include tablet {
+            padding-bottom: 180px;
+        }
+    }
+}
+
+/*FIN INDEX*/
+
+
+/*CONTACTO*/
+
+.header {
+    display: flex;
+    &__nav {
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: $fw+200;
+        gap: 70px;
+    }
+}
+
+
+/*MUJER*/
+
+.header {
+    &__mujer {
+        @extend %hhsection;
+        background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lefties-ropa-interior-elle-00-1616695399.jpg);
+        &__nav {
+            @extend %hnav;
+        }
+    }
+}
+
+
+/*HOMBRE*/
+
+.header {
+    &__hombre {
+        @extend %hhsection;
+        background-image: url(https://www.reviewbox.com.mx/wp-content/uploads/2019/10/boxer-hombres-destcada.jpg);
+        &__nav {
+            @extend %hnav;
+        }
+    }
+}
+
+
+/*NIÑOS*/
+
+.header {
+    &__ninos {
+        @extend %hhsection;
+        background-image: url(https://www.zonadamas.mx/wp-content/uploads/2020/04/JIA-pijama-para-ni%C3%B1os-1.jpg);
+        &__nav {
+            @extend %hnav;
+        }
+    }
+}

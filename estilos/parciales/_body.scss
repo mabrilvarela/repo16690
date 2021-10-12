@@ -1,0 +1,23 @@
+@import "./vars";
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@500;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Sarabun', sans-serif;
+    background-image: linear-gradient (135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background-size: cover;
+    &__ofertas {
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
+        padding: $pad+$pad;
+        text-align: center;
+        line-height: 0.2;   
+    }   
+}

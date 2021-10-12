@@ -1,0 +1,27 @@
+@import "./vars";
+@import "./extend";
+
+.footer {
+    &__myr {
+        width: 100%;
+        text-align: center;
+        margin: 0px 5px;
+    }
+    &__col {
+        @extend %fcolumn;
+        &__h3 {
+            color: black;
+            font-size: $fs;
+            font-weight: ($fw+100)*2;
+        }
+    }
+    &__list {
+        padding-left: 0px;
+        &__item {
+            color: black;
+            list-style: none;
+            font-weight: $fw+200;
+            line-height: 2;
+        }
+    }
+}
