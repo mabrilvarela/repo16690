@@ -43,6 +43,10 @@
             padding: 10px;
             background-color: rgb(238, 159, 159);
             border: solid 1px black;
+            font-weight: 800;
+        }
+        button:hover {
+            color:mediumvioletred;
         }
 
         @include tablet {

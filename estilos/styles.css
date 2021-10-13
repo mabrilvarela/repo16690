@@ -135,6 +135,11 @@
   padding: 10px;
   background-color: #ee9f9f;
   border: solid 1px black;
+  font-weight: 800;
+}
+
+.header__text button:hover {
+  color: mediumvioletred;
 }
 
 @media screen and (max-width: 768px) {
