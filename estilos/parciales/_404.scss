@@ -1,12 +1,20 @@
 @import "./extend";
 
-.section__404 {
-    background-color: darkorchid;
-    height: 200vh;
-    width: 100%;
+.body-404 {
+    height: 100vh;
+    background-color: #fcc4a4;
 }
 
-.section__h1, .section__p {
-    @extend %jacenter;
-    @extend %fcolumn;
+.page-not-found {
+    height: 100vh;
+}
+
+.img-404 {
+    width: 100vh;
+    height: 600px;
+}
+
+.btn-404 {
+    margin-left: 150px;
+    border: none;    
 }

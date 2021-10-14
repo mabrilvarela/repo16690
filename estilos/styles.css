@@ -36,7 +36,7 @@
   padding: 5px 15px;
 }
 
-.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion, .section__h1, .section__p {
+.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +46,7 @@
           flex-direction: column;
 }
 
-.main, .main__ncln, .ctg__descripcion, .section__h1, .section__p {
+.main, .main__ncln, .ctg__descripcion {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -191,7 +191,7 @@
   padding: 5px 15px;
 }
 
-.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion, .section__h1, .section__p {
+.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +201,7 @@
           flex-direction: column;
 }
 
-.main, .main__ncln, .ctg__descripcion, .section__h1, .section__p {
+.main, .main__ncln, .ctg__descripcion {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -320,7 +320,7 @@
   padding: 5px 15px;
 }
 
-.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion, .section__h1, .section__p {
+.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,7 +330,7 @@
           flex-direction: column;
 }
 
-.main, .main__ncln, .ctg__descripcion, .section__h1, .section__p {
+.main, .main__ncln, .ctg__descripcion {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -396,7 +396,7 @@
   padding: 5px 15px;
 }
 
-.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion, .section__h1, .section__p {
+.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,7 +406,7 @@
           flex-direction: column;
 }
 
-.main, .main__ncln, .ctg__descripcion, .section__h1, .section__p {
+.main, .main__ncln, .ctg__descripcion {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -480,7 +480,7 @@
   padding: 5px 15px;
 }
 
-.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion, .section__h1, .section__p {
+.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -490,7 +490,7 @@
           flex-direction: column;
 }
 
-.main, .main__ncln, .ctg__descripcion, .section__h1, .section__p {
+.main, .main__ncln, .ctg__descripcion {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -552,7 +552,7 @@
   padding: 5px 15px;
 }
 
-.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion, .section__h1, .section__p {
+.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -562,7 +562,7 @@
           flex-direction: column;
 }
 
-.main, .main__ncln, .ctg__descripcion, .section__h1, .section__p {
+.main, .main__ncln, .ctg__descripcion {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -605,7 +605,7 @@
   padding: 5px 15px;
 }
 
-.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion, .section__h1, .section__p {
+.header__text, .main, .main__ncln, .footer__col, .mainc__fondo, .ctg__descripcion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -615,7 +615,7 @@
           flex-direction: column;
 }
 
-.main, .main__ncln, .ctg__descripcion, .section__h1, .section__p {
+.main, .main__ncln, .ctg__descripcion {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -645,9 +645,22 @@
      object-fit: cover;
 }
 
-.section__404 {
-  background-color: darkorchid;
-  height: 200vh;
-  width: 100%;
+.body-404 {
+  height: 100vh;
+  background-color: #fcc4a4;
+}
+
+.page-not-found {
+  height: 100vh;
+}
+
+.img-404 {
+  width: 100vh;
+  height: 600px;
+}
+
+.btn-404 {
+  margin-left: 150px;
+  border: none;
 }
 /*# sourceMappingURL=styles.css.map */
