@@ -75,7 +75,8 @@
 .header {
     &__mujer {
         @extend %hhsection;
-        background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lefties-ropa-interior-elle-00-1616695399.jpg);
+        background-image: url(https://merodea.com/wp-content/uploads/2017/01/aerie-real-campaign-min.jpg);
+        background-position: 30% 15%;
         &__nav {
             @extend %hnav;
         }
@@ -88,7 +89,7 @@
 .header {
     &__hombre {
         @extend %hhsection;
-        background-image: url(https://www.reviewbox.com.mx/wp-content/uploads/2019/10/boxer-hombres-destcada.jpg);
+        background-image: url(https://i.blogs.es/959641/calvin-klein-festeja-el-amor-la-individualidad-y-la-autenticidad-en-su-nueva-campana-01/1366_2000.jpg);
         &__nav {
             @extend %hnav;
         }
