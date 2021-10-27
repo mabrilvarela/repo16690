@@ -9,7 +9,7 @@
 
 .body {
   font-family: 'Sarabun', sans-serif;
-  background-image: linear-gradient 135deg, #fdfcfb 0%, #e2d1c3 100%;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   background-size: cover;
 }
 
@@ -433,10 +433,6 @@
      object-fit: cover;
 }
 
-.mainc {
-  padding-left: 500px;
-}
-
 @media screen and (max-width: 768px) {
   .mainc {
     padding-left: 200px;
@@ -450,7 +446,7 @@
       -ms-flex-align: center;
           align-items: center;
   font-size: 35px;
-  padding: 20px 70px;
+  padding: 10px 300px;
 }
 
 .mainc__fondo {
@@ -462,6 +458,7 @@
 .mainc__form {
   margin: 0px 20px;
   padding: 10px 20px;
+  padding-left: 250px;
 }
 
 .main__img__btnm, .main__img__btnh, .main__img__btnn {
