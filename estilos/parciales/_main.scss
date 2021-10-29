@@ -63,9 +63,7 @@
     }
     &__video {
         margin: 25px 0px;
-        @include tablet {
-            ratio: ratio-16x9;
-        }
+
     }
 }
 

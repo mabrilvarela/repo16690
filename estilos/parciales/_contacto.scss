@@ -2,26 +2,87 @@
 @import "./responsive";
 @import "./extend";
 
-.mainc {
-    @include tablet {
-        padding-left: 200px;
-    }
+.mainc {    
     &__h1 {
         width: 100%;
         font-weight: ($fw+100)*2;
-        align-items: center;
         font-size: 35px;
-        padding: 10px 300px
+        padding: 10px 300px;
+
+        @include contactoS {
+            font-size: 23px;
+            padding: 0px;
+            text-align: center;
+        }
+
+        @include contactoM {
+            padding: 0px;
+            font-size: 24px;
+            text-align: center;
+        }
     }
     &__fondo {
         @extend %fcolumn;
         width: 100%;
         padding-bottom: $pad*3;
         line-height: 1.5;
+
+        @include contactoS {
+            padding-bottom: 10px;
+        }
     }
     &__form {
         margin: 0px 20px;
         padding: 10px 20px;
         padding-left: 250px;
+
+        @include contactoS {
+            padding-left: 1px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        @include contactoM {
+            padding-left: 2px;
+            text-align: center;
+        }
+    }
+}
+
+.telemarketer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include contactoL {
+        justify-content: flex-start;
+    }
+}
+.asistente {
+    @include contactoS {
+        width: 270px;
+        height: 270px;
+        margin-bottom: 50px;
+    }   
+    
+    @include contactoM {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+
+    @include contactoL {
+        width: 370px;
+        height: 370px;
+    }
+
+    @include contactoG {
+        width: 410px;
+        height: 410px;
+    }
+
+    @include contactoLG{
+        width: 450px;
+        height: 450px;
     }
 }

@@ -6,6 +6,20 @@
 
 .header {
     display: flex;
+    width: 100%;
+
+    &__logo {
+        @include contactoS {
+           width: 50px;
+           height: 50px; 
+        }
+    }
+
+    &__burger {
+        @include contactoS {
+            border: none;
+        }
+    }
     &__hsec {
         display: grid;
         grid-template-rows: max-content;
@@ -14,18 +28,11 @@
         background-image: url(https://fotos.perfil.com/2020/07/24/el-55-por-ciento-de-las-mujeres-creen-son-retratadas-negativamente-en-los-medios-991642.jpg);
         background-size: cover;
         
-        @include tablet {
-            background-position: center;
-        }
         &__nav {
             text-transform: uppercase;
             font-size: 13px;
             font-weight: $fw+200;
             gap: 70px;
-
-            @include tablet {
-                gap: 4px;
-            }
         }   
     }
     &__text {
@@ -48,10 +55,6 @@
         button:hover {
             color:mediumvioletred;
         }
-
-        @include tablet {
-            padding-bottom: 180px;
-        }
     }
 }
 
@@ -63,11 +66,17 @@
 /*NOSOTROS*/
 
 .nav-right {
-        text-transform: uppercase;
-        font-size: 13px;
-        font-weight: $fw+200;
-        gap: 70px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: $fw+200;
+    gap: 70px;
+
+    @include contactoS{
+        font-size: 11px;
+        gap: 10px;
+        align-items: center;
     }
+}
 
 
 /*MUJER*/

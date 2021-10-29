@@ -23,6 +23,14 @@
   line-height: 0.2;
 }
 
+@media screen and (max-width: 400px) {
+  .body__ofertas {
+    font-size: 13px;
+    padding: 13px;
+    line-height: 1.2;
+  }
+}
+
 .main__img__btnm, .main__img__btnh, .main__img__btnn {
   position: absolute;
   top: 75%;
@@ -81,6 +89,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .header__logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__burger {
+    border: none;
+  }
 }
 
 .header__hsec {
@@ -95,23 +117,11 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 768px) {
-  .header__hsec {
-    background-position: center;
-  }
-}
-
 .header__hsec__nav {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
   gap: 70px;
-}
-
-@media screen and (max-width: 768px) {
-  .header__hsec__nav {
-    gap: 4px;
-  }
 }
 
 .header__text {
@@ -142,12 +152,6 @@
   color: mediumvioletred;
 }
 
-@media screen and (max-width: 768px) {
-  .header__text {
-    padding-bottom: 180px;
-  }
-}
-
 /*FIN INDEX*/
 /*CONTACTO*/
 /*PROMOCIONES*/
@@ -157,6 +161,16 @@
   font-size: 13px;
   font-weight: 500;
   gap: 70px;
+}
+
+@media screen and (max-width: 400px) {
+  .nav-right {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 /*MUJER*/
@@ -298,12 +312,6 @@
   margin: 25px 0px;
 }
 
-@media screen and (max-width: 768px) {
-  .main__video {
-    ratio: ratio-16x9;
-  }
-}
-
 .main__img__btnm, .main__img__btnh, .main__img__btnn {
   position: absolute;
   top: 75%;
@@ -433,20 +441,27 @@
      object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
-  .mainc {
-    padding-left: 200px;
-  }
-}
-
 .mainc__h1 {
   width: 100%;
   font-weight: 800;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-size: 35px;
   padding: 10px 300px;
+}
+
+@media screen and (max-width: 400px) {
+  .mainc__h1 {
+    font-size: 23px;
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .mainc__h1 {
+    padding: 0px;
+    font-size: 24px;
+    text-align: center;
+  }
 }
 
 .mainc__fondo {
@@ -455,10 +470,88 @@
   line-height: 1.5;
 }
 
+@media screen and (max-width: 400px) {
+  .mainc__fondo {
+    padding-bottom: 10px;
+  }
+}
+
 .mainc__form {
   margin: 0px 20px;
   padding: 10px 20px;
   padding-left: 250px;
+}
+
+@media screen and (max-width: 400px) {
+  .mainc__form {
+    padding-left: 1px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .mainc__form {
+    padding-left: 2px;
+    text-align: center;
+  }
+}
+
+.telemarketer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .telemarketer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .asistente {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .asistente {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .asistente {
+    width: 370px;
+    height: 370px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .asistente {
+    width: 410px;
+    height: 410px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .asistente {
+    width: 450px;
+    height: 450px;
+  }
 }
 
 .main__img__btnm, .main__img__btnh, .main__img__btnn {

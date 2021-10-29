@@ -1,5 +1,6 @@
 @import "./vars";
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@500;800&display=swap');
+@import "./responsive";
 
 *{
     margin: 0px;
@@ -11,6 +12,7 @@
     font-family: 'Sarabun', sans-serif;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     background-size: cover;
+
     &__ofertas {
         background-color: black;
         color: white;
@@ -18,6 +20,12 @@
         margin: 0px;
         padding: $pad+$pad;
         text-align: center;
-        line-height: 0.2;   
+        line-height: 0.2;
+          
+        @include contactoS {
+            font-size: 13px;
+            padding: 13px;
+            line-height: 1.2;
+        }    
     }   
 }

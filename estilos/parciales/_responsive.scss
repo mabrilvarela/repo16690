@@ -1,5 +1,29 @@
-@mixin tablet {
-    @media screen and (max-width: 768px) {
+@mixin contactoS {
+    @media screen and (max-width: 400px) {
+     @content;   
+    }
+}
+
+@mixin contactoM {
+    @media screen and (min-width: 401px) {
         @content;
-    }    
+    }
+}
+
+@mixin contactoL {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin contactoG {
+    @media screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin contactoLG {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
 }
