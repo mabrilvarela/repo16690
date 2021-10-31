@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@500;800&display=swap");
+/*RESPONSIVE CONTACTO*/
+/*RESPONSIVE PROMOCIONES*/
+/*RESPONSIVE GALERIA MUJER*/
 * {
   margin: 0px;
   padding: 0px;
@@ -31,6 +34,9 @@
   }
 }
 
+/*RESPONSIVE CONTACTO*/
+/*RESPONSIVE PROMOCIONES*/
+/*RESPONSIVE GALERIA MUJER*/
 .main__img__btnm, .main__img__btnh, .main__img__btnn {
   position: absolute;
   top: 75%;
@@ -77,6 +83,28 @@
   gap: 70px;
 }
 
+@media screen and (max-width: 400px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    opacity: 0.6;
+  }
+}
+
 .main__img img {
   height: 100%;
   width: 100%;
@@ -92,7 +120,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   .header__logo {
     width: 50px;
     height: 50px;
@@ -100,6 +128,12 @@
 }
 
 @media screen and (max-width: 400px) {
+  .header__burger {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 401px) {
   .header__burger {
     border: none;
   }
@@ -189,6 +223,9 @@
   background-image: url(https://www.zonadamas.mx/wp-content/uploads/2020/04/JIA-pijama-para-ni%C3%B1os-1.jpg);
 }
 
+/*RESPONSIVE CONTACTO*/
+/*RESPONSIVE PROMOCIONES*/
+/*RESPONSIVE GALERIA MUJER*/
 .main__img__btnm, .main__img__btnh, .main__img__btnn {
   position: absolute;
   top: 75%;
@@ -233,6 +270,28 @@
   font-size: 13px;
   font-weight: 500;
   gap: 70px;
+}
+
+@media screen and (max-width: 400px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    opacity: 0.6;
+  }
 }
 
 .main__img img {
@@ -358,6 +417,28 @@
   gap: 70px;
 }
 
+@media screen and (max-width: 400px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    opacity: 0.6;
+  }
+}
+
 .main__img img {
   height: 100%;
   width: 100%;
@@ -365,10 +446,19 @@
      object-fit: cover;
 }
 
+/*RESPONSIVE CONTACTO*/
+/*RESPONSIVE PROMOCIONES*/
+/*RESPONSIVE GALERIA MUJER*/
 .footer__myr {
   width: 100%;
   text-align: center;
   margin: 0px 5px;
+}
+
+@media screen and (max-width: 766px) {
+  .footer__myr {
+    margin-top: 100px;
+  }
 }
 
 .footer__col__h3 {
@@ -388,6 +478,9 @@
   line-height: 2;
 }
 
+/*RESPONSIVE CONTACTO*/
+/*RESPONSIVE PROMOCIONES*/
+/*RESPONSIVE GALERIA MUJER*/
 .main__img__btnm, .main__img__btnh, .main__img__btnn {
   position: absolute;
   top: 75%;
@@ -432,6 +525,28 @@
   font-size: 13px;
   font-weight: 500;
   gap: 70px;
+}
+
+@media screen and (max-width: 400px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    opacity: 0.6;
+  }
 }
 
 .main__img img {
@@ -521,7 +636,6 @@
   .asistente {
     width: 270px;
     height: 270px;
-    margin-bottom: 50px;
   }
 }
 
@@ -529,7 +643,6 @@
   .asistente {
     width: 300px;
     height: 300px;
-    margin-bottom: 60px;
   }
 }
 
@@ -600,6 +713,28 @@
   gap: 70px;
 }
 
+@media screen and (max-width: 400px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    opacity: 0.6;
+  }
+}
+
 .main__img img {
   height: 100%;
   width: 100%;
@@ -607,9 +742,25 @@
      object-fit: cover;
 }
 
+.ctg {
+  margin: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .ctg {
+    margin: 1rem;
+  }
+}
+
 .ctg__row {
   width: 100%;
   margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .ctg__row {
+    margin-left: 0px;
+  }
 }
 
 .ctg img {
@@ -620,12 +771,27 @@
   width: 250px;
 }
 
+@media screen and (max-width: 768px) {
+  .ctg img {
+    height: 100%;
+  }
+}
+
 .ctg__descripcion {
   width: 72%;
   padding: 15px 0px;
   font-size: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .ctg__descripcion {
+    width: 100%;
+  }
+}
+
+/*RESPONSIVE CONTACTO*/
+/*RESPONSIVE PROMOCIONES*/
+/*RESPONSIVE GALERIA MUJER*/
 .main__img__btnm, .main__img__btnh, .main__img__btnn {
   position: absolute;
   top: 75%;
@@ -670,6 +836,28 @@
   font-size: 13px;
   font-weight: 500;
   gap: 70px;
+}
+
+@media screen and (max-width: 400px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    opacity: 0.6;
+  }
 }
 
 .main__img img {
@@ -723,6 +911,28 @@
   font-size: 13px;
   font-weight: 500;
   gap: 70px;
+}
+
+@media screen and (max-width: 400px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__mujer__nav, .header__hombre__nav, .header__ninos__nav {
+    font-size: 11px;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    opacity: 0.6;
+  }
 }
 
 .main__img img {

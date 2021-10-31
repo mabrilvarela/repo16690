@@ -1,15 +1,28 @@
 @import "./extend";
 
 .ctg {
+    margin: 3rem;
+
+    @include mujerS {
+        margin: 1rem;
+    }
     &__row {
         width: 100%;
         margin-left: 40px;
+
+        @include mujerS {
+            margin-left: 0px;
+        }
     }
     img {
         object-fit: cover;
         position: relative;
         height: 450px;
         width: 250px;
+
+        @include mujerS {
+            height: 100%;
+        }
     }
     &__descripcion {
         @extend %fcolumn;
@@ -17,5 +30,9 @@
         width: 72%;
         padding: 15px 0px;
         font-size: 20px;
+
+        @include mujerS {
+            width: 100%;
+        }
     }
 }

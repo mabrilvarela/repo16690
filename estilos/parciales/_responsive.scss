@@ -1,3 +1,5 @@
+/*RESPONSIVE CONTACTO*/
+
 @mixin contactoS {
     @media screen and (max-width: 400px) {
      @content;   
@@ -24,6 +26,22 @@
 
 @mixin contactoLG {
     @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+/*RESPONSIVE PROMOCIONES*/
+
+@mixin promoS {
+    @media screen and (max-width: 766px) {
+        @content;
+    }
+}
+
+/*RESPONSIVE GALERIA MUJER*/
+
+@mixin mujerS {
+    @media screen and (max-width: 768px) {
         @content;
     }
 }
