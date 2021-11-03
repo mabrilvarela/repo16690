@@ -32,8 +32,16 @@
         background-image: url(https://fotos.perfil.com/2020/07/24/el-55-por-ciento-de-las-mujeres-creen-son-retratadas-negativamente-en-los-medios-991642.jpg);
         background-size: cover;
 
-        @include promoS {
-            background-position: center;
+        @include mujerS {
+            background-position: 27%;
+        }
+
+        @include mujerM {
+            background-position: 45%;
+        }
+
+        @include mujerL {
+            background-position: top;
         }
 
         &__nav {

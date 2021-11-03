@@ -50,6 +50,12 @@
   padding: 5px 15px;
 }
 
+@media screen and (max-width: 766px) {
+  .main__img__btnm, .main__img__btnh, .main__img__btnn {
+    padding: 0px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .main__img__btnm, .main__img__btnh, .main__img__btnn {
     top: 155%;
@@ -196,9 +202,21 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 425px) {
   .header__hsec {
-    background-position: center;
+    background-position: 27%;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .header__hsec {
+    background-position: 45%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header__hsec {
+    background-position: top;
   }
 }
 
@@ -392,6 +410,12 @@
   padding: 5px 15px;
 }
 
+@media screen and (max-width: 766px) {
+  .main__img__btnm, .main__img__btnh, .main__img__btnn {
+    padding: 0px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .main__img__btnm, .main__img__btnh, .main__img__btnn {
     top: 155%;
@@ -524,9 +548,10 @@
      object-position: right;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .main__img img {
     width: 100%;
+    padding: 10px 0px;
   }
 }
 
@@ -645,6 +670,12 @@
   border: none;
   background-color: white;
   padding: 5px 15px;
+}
+
+@media screen and (max-width: 766px) {
+  .main__img__btnm, .main__img__btnh, .main__img__btnn {
+    padding: 0px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -794,6 +825,12 @@
   border: none;
   background-color: white;
   padding: 5px 15px;
+}
+
+@media screen and (max-width: 766px) {
+  .main__img__btnm, .main__img__btnh, .main__img__btnn {
+    padding: 0px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1025,6 +1062,12 @@
   border: none;
   background-color: white;
   padding: 5px 15px;
+}
+
+@media screen and (max-width: 766px) {
+  .main__img__btnm, .main__img__btnh, .main__img__btnn {
+    padding: 0px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1260,6 +1303,12 @@
   border: none;
   background-color: white;
   padding: 5px 15px;
+}
+
+@media screen and (max-width: 766px) {
+  .main__img__btnm, .main__img__btnh, .main__img__btnn {
+    padding: 0px;
+  }
 }
 
 @media screen and (min-width: 768px) {

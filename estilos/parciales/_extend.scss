@@ -10,6 +10,10 @@
     background-color: white;
     padding: 5px 15px;
 
+    @include promoS {
+        padding: 0px;
+    }
+
     @include contactoL {
         top: 155%;
     }

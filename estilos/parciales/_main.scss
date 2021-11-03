@@ -30,8 +30,9 @@
             @extend %ctg-img;
             object-position: right;
 
-            @include contactoS {
+            @include mujerS {
                 width: 100%;
+                padding: 10px 0px;
             }
         }
         img:hover {
