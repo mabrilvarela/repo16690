@@ -26,22 +26,39 @@
         }
     }
     &__img {
-        margin: 10px 30px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
-        gap: 5px;
-        position: relative;
         img {
             @extend %ctg-img;
             object-position: right;
+
+            @include contactoS {
+                width: 100%;
+            }
         }
         img:hover {
-            transform: scale(1.1);
+            @include contactoL {
+                transform: scale(1.1);
+            }
         }
         &__btnm {
             @extend %btn;
             left: 13%;
+
+            @include contactoS {
+                opacity: 0;
+            }
+
+            @include contactoM {
+                opacity: 0;
+            }
+
+            @include contactoL {
+                opacity: 1;
+                left: 11%;
+            }
+
+            @include contactoG {
+                
+            }
         }
         &__btnm:hover {
             color: indianred;
@@ -49,6 +66,23 @@
         &__btnh {
             @extend %btn;
             left: 46%;
+
+            @include contactoS {
+                opacity: 0;
+            }
+
+            @include contactoM {
+                opacity: 0;
+            }
+
+            @include contactoL {
+                opacity: 1;
+                left: 44%;
+            }
+
+            @include contactoG {
+                
+            }
         }
         &__btnh:hover {
             color: rgb(24, 214, 81);
@@ -56,14 +90,35 @@
         &__btnn {
             @extend %btn;
             left: 79%;
+
+            @include contactoS {
+                opacity: 0;
+            }
+
+            @include contactoM {
+                opacity: 0;
+            }
+
+            @include contactoL {
+                opacity: 1;
+                left: 77%;
+            }
+
+            @include contactoG {
+                left: 79%;
+            }
         }
         &__btnn:hover {
             color:rgb(192, 19, 19)
         }
     }
+
     &__video {
         margin: 25px 0px;
 
+        @include promoS {
+            width: 100%;
+        }    
     }
 }
 

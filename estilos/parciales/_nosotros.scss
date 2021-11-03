@@ -1,0 +1,27 @@
+.nosotros {
+    width: 100%;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__text {
+        font-size: 16px;
+
+        @include contactoS {
+            font-size: 13px;
+        }
+
+        @include contactoM {
+            font-size: 14px;
+        }
+
+        @include contactoL {
+            font-size: 15px;
+        }     
+        
+        @include contactoG {
+            font-size: 16px;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 %btn {
     position: absolute;
-    top: 75%;
+    top: 175%;
     text-decoration: none;
     font-weight: 800;
     font-size: 20px;
@@ -9,6 +9,18 @@
     border: none;
     background-color: white;
     padding: 5px 15px;
+
+    @include contactoL {
+        top: 155%;
+    }
+
+    @include contactoG {
+        top: 165%;
+    }
+
+    @include contactoLG {
+        top: 175%;
+    }
 }
 
 %fcolumn {
@@ -44,8 +56,27 @@
         font-size: 11px;
         gap: 10px;
         align-items: center;        
-        background-color: white;
-        opacity: 0.6;
+        background-color: rgb(230, 230, 230);
+        opacity: 0.8;
+    }
+
+    @include mujerM {
+        font-size: 11px;
+        gap: 10px;
+        align-items: center;        
+        background-color: rgb(230, 230, 230);
+        opacity: 0.8;        
+    }
+
+    @include mujerL {
+        font-size: 13px;
+        gap: 40px;
+        background-color: transparent;
+        opacity: 1;        
+    }
+    
+    @include mujerG {
+        gap: 70px;
     }
 }
 

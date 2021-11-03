@@ -41,7 +41,25 @@
 /*RESPONSIVE GALERIA MUJER*/
 
 @mixin mujerS {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 425px) {
+        @content;
+    }
+}
+
+@mixin mujerM {
+    @media screen and (min-width: 426px) {
+        @content;
+    }
+}
+
+@mixin mujerL {
+    @media screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin mujerG {
+    @media screen and (min-width: 1400px) {
         @content;
     }
 }
